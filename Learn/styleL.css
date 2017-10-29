@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+
+body { margin:0; padding:0; width:100%; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
+
+.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content { margin:0; padding:0;}
+
+/* 标题头 */
+.header {margin:0; padding:0;}
+
+/*  导航栏 */
+.menu_nav { margin-left:280px; padding:0 16px 16px 0; height:67px;}
+.menu_nav ul { list-style:none; height:67px; border-left:1px solid #fff;}
+.menu_nav ul li { margin:00; padding:0; float:left; border-right:1px solid #fff;}
+.menu_nav ul li a { display:block; margin:0; padding:14px 0 31px; width:157px; color:#888; text-decoration:none; font-size:13px; text-align:center;}
+.menu_nav ul li.active a, .menu_nav ul li a:hover { background:url(../Image/Img2.gif) no-repeat center top;}
+
+/* 内容和侧边栏 */
+.content {margin-left:180px; padding:0 0 24px; width:1000px;height:430px;background:url(../Image/Img6.bmp);}
+
+/* 页脚设置 */
+.footer {margin:0 auto; padding:20px 60px; width:500px;}
+.footer p.lf { margin:0; padding:4px 0; text-align:left; width:auto; line-height:1.5em;}
+.footer p.lf a { color:#00c6ff;}
+.footer p.lf span { float:right;}
